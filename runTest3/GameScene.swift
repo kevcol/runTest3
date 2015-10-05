@@ -84,6 +84,7 @@ class GameScene: SKScene {
         
         // Prepare the bushes sprites
         bushesNode = SKSpriteNode(imageNamed: "background3")
+        
         bushesNode.zPosition = -80
         bushesNode.position = CGPoint(x: size.width / 2, y: (backgroundNode.size.height / 2) + 87)
         
